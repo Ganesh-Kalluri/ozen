@@ -101,21 +101,21 @@ class TestSlideInternals(slides_common.SlidesCase):
 class TestVideoFromURL(slides_common.SlidesCase):
     def test_video_youtube(self):
         youtube_urls = {
-            'W0JQcpGLSFw': [
-                'https://youtu.be/W0JQcpGLSFw',
-                'https://www.youtube.com/watch?v=W0JQcpGLSFw',
-                'https://www.youtube.com/watch?v=W0JQcpGLSFw&list=PL1-aSABtP6ACZuppkBqXFgzpNb2nVctZx',
+            '1OWCcx-KsfY': [
+                'https://youtu.be/1OWCcx-KsfY',
+                'https://www.youtube.com/watch?v=1OWCcx-KsfY',
+                'https://www.youtube.com/watch?v=1OWCcx-KsfY&list=PL1-aSABtP6ACZuppkBqXFgzpNb2nVctZx',
             ],
-            'vmhB-pt7EfA': [  # id starts with v, it is important
-                'https://youtu.be/vmhB-pt7EfA',
-                'https://www.youtube.com/watch?feature=youtu.be&v=vmhB-pt7EfA',
-                'https://www.youtube.com/watch?v=vmhB-pt7EfA&list=PL1-aSABtP6ACZuppkBqXFgzpNb2nVctZx&index=7',
+            '1OWCcx-KsfY': [  # id starts with v, it is important
+                'https://youtu.be/1OWCcx-KsfY',
+                'https://www.youtube.com/watch?feature=youtu.be&v=1OWCcx-KsfY',
+                'https://www.youtube.com/watch?v=1OWCcx-KsfY&list=PL1-aSABtP6ACZuppkBqXFgzpNb2nVctZx&index=7',
             ],
-            'hlhLv0GN1hA': [
-                'https://www.youtube.com/v/hlhLv0GN1hA',
-                'https://www.youtube.com/embed/hlhLv0GN1hA',
-                'https://www.youtube-nocookie.com/embed/hlhLv0GN1hA',
-                'https://m.youtube.com/watch?v=hlhLv0GN1hA',
+            '1OWCcx-KsfY': [
+                'https://www.youtube.com/v/1OWCcx-KsfY',
+                'https://www.youtube.com/embed/1OWCcx-KsfY',
+                'https://www.youtube-nocookie.com/embed/1OWCcx-KsfY',
+                'https://m.youtube.com/watch?v=1OWCcx-KsfY',
             ],
         }
 
