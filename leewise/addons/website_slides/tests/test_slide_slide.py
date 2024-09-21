@@ -88,7 +88,7 @@ class TestSlideInternals(slides_common.SlidesCase):
             'channel_id': self.channel.id,
             'slide_category': 'video',
             'is_published': True,
-            'url': 'https://youtu.be/W0JQcpGLSFw',
+            'url': 'https://youtu.be/1OWCcx-KsfY',
         })
 
         slide.write({'slide_category': 'article', 'html_content': '<p>Hello</p>'})
