@@ -951,7 +951,7 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
         assert.strictEqual(p.outerHTML, '<p></p>', "URL insertion should be reverted");
         assert.containsOnce(
             editable,
-            'div.media_iframe_video iframe[data-src="//www.youtube.com/embed/qxb74CMR748?rel=0&autoplay=0"]',
+            'div.media_iframe_video iframe[data-src="//www.youtube.com/embed/1OWCcx-KsfY?rel=0&autoplay=0"]',
             "The video should be embedded as an iframe"
         );
     });
