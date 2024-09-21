@@ -915,7 +915,7 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
             if (route === '/web_editor/video_url/data') {
                 return Promise.resolve({
                     platform: "youtube",
-                    embed_url: "//www.youtube.com/embed/qxb74CMR748?rel=0&autoplay=0",
+                    embed_url: "//www.youtube.com/embed/1OWCcx-KsfY?rel=0&autoplay=0",
                 });
             }
         };
